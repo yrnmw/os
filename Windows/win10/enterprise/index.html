@@ -1,0 +1,154 @@
+<!DOCTYPE html> <html lang="zh-CN"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Windows 10 企业版下载选择</title> <script src="https://cdn.tailwindcss.com"></script> <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet"> <!-- Tailwind 配置 --> <script> tailwind.config = { theme: { extend: { colors: { primary: '#165DFF', secondary: '#6B7280', light: '#F3F4F6', hover: '#EFF6FF' }, fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'], }, }, } } </script> <style type="text/tailwindcss"> @layer utilities { .content-auto { content-visibility: auto; } .table-shadow { box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); } .link-hover { @apply transition-all duration-300 hover:text-primary hover:underline hover:pl-1; } } </style> </head> <body class="bg-gray-50 min-h-screen p-4 md:p-8 font-sans"> <div class="max-w-5xl mx-auto bg-white rounded-xl p-6 md:p-8 table-shadow"> <!-- 页面标题 --> <h1 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-gray-800 mb-6 pb-4 border-b border-gray-200"> 请选择你的 Windows 10 企业版下载 </h1>
+<!-- 下载选项表格 -->
+<div class="overflow-x-auto">
+  <table class="min-w-full bg-white border border-gray-200 rounded-lg">
+    <thead>
+      <tr class="bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+        <th class="px-4 py-3 border-b">语言版本</th>
+        <th class="px-4 py-3 border-b">Windows 10 企业版</th>
+        <th class="px-4 py-3 border-b">Windows 10 企业版 LTSC</th>
+      </tr>
+    </thead>
+    <tbody class="divide-y divide-gray-200">
+      <!-- 英语(美国) -->
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-4 py-4 border-b font-medium">英语(美国)</td>
+        <td class="px-4 py-4 border-b">
+          <div class="text-sm text-gray-900 mb-1">ISO - 企业版下载</div>
+          <div class="flex space-x-4">
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 32位版本
+            </a>
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 64位版本
+            </a>
+          </div>
+        </td>
+        <td class="px-4 py-4 border-b">
+          <div class="text-sm text-gray-900 mb-1">ISO - 企业版 LTSC 下载</div>
+          <div class="flex space-x-4">
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 32位版本
+            </a>
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 64位版本
+            </a>
+          </div>
+        </td>
+      </tr>
+      
+      <!-- 英语(英国) -->
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-4 py-4 border-b font-medium">英语(英国)</td>
+        <td class="px-4 py-4 border-b">
+          <div class="text-sm text-gray-900 mb-1">ISO - 企业版下载</div>
+          <div class="flex space-x-4">
+            <a href="https://file.1011303.xyz/系统/windows10e-32-english" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 32位版本
+            </a>
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 64位版本
+            </a>
+          </div>
+        </td>
+        <td class="px-4 py-4 border-b">
+          <div class="text-sm text-gray-900 mb-1">ISO - 企业版 LTSC 下载</div>
+          <div class="flex space-x-4">
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 32位版本
+            </a>
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 64位版本
+            </a>
+          </div>
+        </td>
+      </tr>
+      
+      <!-- 简体中文 -->
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-4 py-4 border-b font-medium">简体中文</td>
+        <td class="px-4 py-4 border-b">
+          <div class="text-sm text-gray-900 mb-1">ISO - 企业版下载</div>
+          <div class="flex space-x-4">
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 32位版本
+            </a>
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 64位版本
+            </a>
+          </div>
+        </td>
+        <td class="px-4 py-4 border-b">
+          <div class="text-sm text-gray-900 mb-1">ISO - 企业版 LTSC 下载</div>
+          <div class="flex space-x-4">
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 32位版本
+            </a>
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 64位版本
+            </a>
+          </div>
+        </td>
+      </tr>
+      
+      <!-- 中文(繁体) -->
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-4 py-4 border-b font-medium">中文(繁体)</td>
+        <td class="px-4 py-4 border-b">
+          <div class="text-sm text-gray-900 mb-1">ISO - 企业版下载</div>
+          <div class="flex space-x-4">
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 32位版本
+            </a>
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 64位版本
+            </a>
+          </div>
+        </td>
+        <td class="px-4 py-4 border-b">
+          <div class="text-sm text-gray-900 mb-1">ISO - 企业版 LTSC 下载</div>
+          <div class="flex space-x-4">
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 32位版本
+            </a>
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 64位版本
+            </a>
+          </div>
+        </td>
+      </tr>
+      
+      <!-- 法语 -->
+      <tr class="hover:bg-gray-50 transition-colors duration-200">
+        <td class="px-4 py-4 font-medium">法语</td>
+        <td class="px-4 py-4">
+          <div class="text-sm text-gray-900 mb-1">ISO - 企业版下载</div>
+          <div class="flex space-x-4">
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 32位版本
+            </a>
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 64位版本
+            </a>
+          </div>
+        </td>
+        <td class="px-4 py-4">
+          <div class="text-sm text-gray-900 mb-1">ISO - 企业版 LTSC 下载</div>
+          <div class="flex space-x-4">
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 32位版本
+            </a>
+            <a href="#" class="text-primary text-sm link-hover flex items-center">
+              <i class="fa fa-download mr-1"></i> 64位版本
+            </a>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- 页脚信息 -->
+<div class="mt-8 text-center text-gray-500 text-xs">
+</div>
+</div> <!-- 简单的交互脚本 --> <script> // 添加下载链接点击事件 document.querySelectorAll('a[href="#"]').forEach(link => { link.addEventListener('click', function(e) { e.preventDefault(); const version = this.textContent.trim(); const lang = this.closest('tr').querySelector('td:first-child').textContent; const edition = this.closest('td').previousElementSibling ? '企业版' : '企业版 LTSC'; alert(`你选择了下载: ${lang} Windows 10 ${edition} ${version}\n\n实际应用中，这里将触发文件下载。`); }); }); // 添加表格行悬停动画 document.querySelectorAll('tbody tr').forEach(row => { row.addEventListener('mouseenter', function() { this.classList.add('shadow-sm'); this.style.transform = 'translateX(4px)'; this.style.transition = 'transform 0.2s ease, box-shadow 0.2s ease'; }); row.addEventListener('mouseleave', function() { this.classList.remove('shadow-sm'); this.style.transform = 'translateX(0)'; }); }); </script> </body> </html>
